@@ -1,0 +1,108 @@
+// Cross
+#network-container {
+  .dropdown-toggle {
+    &:focus{
+      outline: none!important;
+    }
+  }
+  .bootstrap-select {
+    outline: none;
+  }
+  .selected {
+    a {
+      outline: none;
+    }
+  }
+
+  .glyphicon.status-icon-id-1 {
+    position: relative;
+
+    &:after {
+      font-family: "Glyphicons Halflings";
+      content: "\e090";
+      color: rgba(0, 0, 0, 0.54);
+    }
+  }
+
+  .glyphicon.status-icon-id-2 {
+    position:relative;
+
+      &:after {
+        font-family: "Glyphicons Halflings";
+        content: "\e083";
+        color: $brand-danger;
+      }
+  }
+
+  .glyphicon.status-icon-id-3 {
+    position:relative;
+
+    &:after {
+      font-family: "Glyphicons Halflings";
+      content: "\e081";
+      color: #2fbab7;
+    }
+  }
+
+  .glyphicon.status-icon-id-4 {
+    position: relative;
+
+    &:after {
+      font-family: "Glyphicons Halflings";
+      content: "\e089";
+    }
+    &.facebook {
+      color: $facebook;
+    }
+    &.pinterest {
+      color: $pinterest;
+    }
+    &.twitter {
+      color: $twitter;
+    }
+    &.instagram {
+      color: $instagram;
+    }
+    &.houzz {
+      color: $houzz;
+    }
+    &.googleplus {
+      color: $googleplus;
+    }
+    &.linkedin {
+      color: $linkedin;
+    }
+    &.vkontakte {
+      color: $vkontakte;
+    }
+    &.xing {
+      color: $xing;
+    }
+
+  }
+}
+
+#form-section-fairs {
+  .dropdown-menu {
+    &:focus {
+      outline: none!important;
+    }
+  }
+
+  .dropdown-toggle {
+    &:focus{
+      outline: none!important;
+    }
+  }
+  .bootstrap-select {
+    outline: none;
+  }
+  .selected {
+    a {
+      background-color: $navy;
+      color: #fff;
+
+      outline: none;
+    }
+  }
+}

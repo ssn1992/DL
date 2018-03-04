@@ -1,0 +1,80 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Socicon
+@import "../lib/fonts/socicon/socicon";
+
+// Material icons
+@import "../lib/fonts/material-icons/material-icons";
+
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@import "../lib/fonts/font-awesome/scss/variables";
+@import "../lib/fonts/font-awesome/scss/mixins";
+@import "../lib/fonts/font-awesome/scss/path";
+@import "../lib/fonts/font-awesome/scss/core";
+@import "../lib/fonts/font-awesome/scss/larger";
+@import "../lib/fonts/font-awesome/scss/fixed-width";
+@import "../lib/fonts/font-awesome/scss/list";
+@import "../lib/fonts/font-awesome/scss/bordered-pulled";
+@import "../lib/fonts/font-awesome/scss/animated";
+@import "../lib/fonts/font-awesome/scss/rotated-flipped";
+@import "../lib/fonts/font-awesome/scss/stacked";
+@import "../lib/fonts/font-awesome/scss/icons";
+@import "../lib/fonts/font-awesome/scss/screen-reader";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+//variables and mixins
+@import "./template/variables";
+@import "./template/mixins";
+@import "./template/shadows";
+
+// Ladda
+@import "../lib/plugins/ladda/ladda-themeless.min.css";
+
+// Core CSS
+@import "./template/typography";
+@import "./template/sidebar-and-main-panel";
+@import "./template/buttons";
+@import "./template/misc";
+@import "./template/inputs";
+@import "./template/forms";
+@import "./template/alerts";
+@import "./template/tables";
+@import "./template/checkboxes";
+@import "./template/radios";
+@import "./template/togglebutton";
+@import "./template/ripples";
+@import "./template/pagination";
+@import "./template/pills";
+@import "./template/dialogs";
+@import "./template/navbars";
+@import "./template/popups";
+@import "./template/footers";
+
+// Fancy Stuff
+@import "./template/dropdown";
+@import "./template/cards";
+@import "./template/tabs";
+@import "./template/chartist";
+@import "./template/responsive";
+
+//plugin css
+@import "./template/plugins/plugin-nouislider";
+@import "./template/plugins/animate";
+@import "./template/plugins/perfect-scrollbar";
+@import "./template/plugins/plugin-datepicker";
+
+// Bootstrap Select
+@import "../lib/plugins/bootstrap-select/bootstrap-select.css";
+
+//Loader
+@import "./template/loaders";

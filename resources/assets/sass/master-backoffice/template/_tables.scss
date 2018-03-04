@@ -1,0 +1,264 @@
+.table{
+  /**
+   > thead > tr > th{
+       border-bottom-width: 1px;
+       font-size: $font-size-h6;
+       font-weight: $font-weight-light;
+   }
+
+   .radio,
+   .checkbox{
+       margin-top: 0;
+       margin-bottom: 0;
+       margin-left: 10px;
+       padding: 0;
+       width: 15px;
+
+       .icons{
+           position: relative;
+       }
+   }
+   > thead > tr > th,
+   > tbody > tr > th,
+   > tfoot > tr > th,
+   > thead > tr > td,
+   > tbody > tr > td,
+   > tfoot > tr > td{
+       padding: 12px 8px;
+       vertical-align: middle;
+   }
+
+   > thead > tr > th{
+       padding-bottom: 4px;
+   }
+
+   .td-actions{
+        display: flex;
+
+        .btn{
+           margin: 0px;
+           padding: 5px;
+        }
+    }
+    > tbody > tr{
+        position: relative;
+    }
+    */
+}
+// Table ReOrder
+table.DTCR_clonedTable.dataTable{position:absolute !important;background-color:rgba(255,255,255,0.7);z-index:202}div.DTCR_pointer{width:1px;background-color:$brand-primary;z-index:201}
+
+#tables {
+  margin-top: 80px!important;
+
+  #table_wrapper {
+    .card-content.table-responsive {
+
+      @import "../import/template/material-layout-tables";
+
+      th {
+        text-align: center !important;
+      }
+
+      td {
+        text-align: center !important;
+      }
+
+      .dt-buttons {
+        a {
+          font-size: 16px !important;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          /* border: 1px solid transparent; */
+          border-radius: 3px;
+          box-shadow: none;
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-pack: start;
+          -ms-flex-pack: start;
+          justify-content: flex-start;
+          line-height: 1 !important;
+          position: relative;
+          vertical-align: top;
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          font-size: 1em;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          margin: .25rem;
+          text-align: center;
+          color: #676a6c !important;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px !important;
+          min-width: 2.25em;
+          cursor: pointer;
+          text-decoration: none;
+          transition: none 86ms ease-out;
+        }
+      }
+
+      .buttons-print {
+        margin-right: 15px !important;
+      }
+
+      .dataTables_empty {
+        text-align: center !important;
+      }
+
+      .dt-buttons {
+        float: right !important;
+        line-height: 1.38;
+
+        a {
+          color: $text-color !important;
+        }
+
+      }
+
+      .dataTables_info {
+        padding-top: 20px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .dataTables_filter {
+        float: left;
+        padding-bottom: 20px;
+        padding-top: 9px;
+
+        label {
+          margin-right: 20px;
+        }
+      }
+      .dataTables_length {
+        padding-bottom: 20px;
+      }
+      .table_length {
+        padding: 0;
+      }
+
+      .dataTables_scrollHead {
+        .sorting_desc, .sorting_asc {
+          border-bottom: 2px solid $brand-primary;
+        }
+      }
+
+      .dt-button {
+        float: right !important;
+      }
+
+      .mdl-data-table {
+        border: none !important;
+
+        tbody tr:hover {
+          background-color: #fafafa;
+        }
+        tbody tr:nth-child(odd) {
+          background-color: #fafafa;
+        }
+        tbody tr {
+          height: 43px;
+        }
+
+        tbody td {
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+        }
+
+      }
+    }
+
+    .table > thead > tr > th {
+      vertical-align: bottom;
+      border-bottom-color: rgb(221, 221, 221);
+    }
+
+    .paginate_button.previous {
+      a {
+        width: 34px;
+        height: 34px;
+      }
+    }
+
+    .paginate_button.next {
+      a {
+        width: 34px;
+        height: 34px;
+      }
+    }
+
+    thead {
+      tr {
+
+        th {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .dataTables_info {
+      padding-top: 20px;
+      text-align: center;
+    }
+
+    .dataTables_paginate.paging_simple_numbers {
+      text-align: center;
+    }
+
+    .dataTables_filter {
+      label {
+        input {
+          box-shadow: none !important;
+        }
+      }
+    }
+
+    .dataTables_empty {
+      text-align: center;
+    }
+
+  }
+
+  tfoot {
+    border-top: 2px solid $brand-primary!important;
+  }
+
+  tbody {
+    tr {
+      td {
+        a {
+          .material-icons {
+            cursor: pointer!important;
+          }
+        }
+      }
+    }
+  }
+}
+
+#tables #table_wrapper .card-content.table-responsive .dt-buttons a {
+  height: 40px!important;
+  width: 20px!important;
+  color: #fff!important;
+  background: $brand-primary!important;
+}
+
+.dt-button-collection.dropdown-menu {
+  li.dt-button.buttons-columnVisibility {
+    margin: 1px 5px!important;
+
+    a {
+      cursor: pointer!important;
+    }
+  }
+}
+
+.btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover, .open > .btn.dropdown-toggle, .open > .btn.dropdown-toggle:focus, .open > .btn.dropdown-toggle:hover, .btn.btn-default, .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-default.active, .btn.btn-default:active:focus, .btn.btn-default:active:hover, .btn.btn-default.active:focus, .btn.btn-default.active:hover, .open > .btn.btn-default.dropdown-toggle, .open > .btn.btn-default.dropdown-toggle:focus, .open > .btn.btn-default.dropdown-toggle:hover, .navbar .navbar-nav > li > a.btn, .navbar .navbar-nav > li > a.btn:hover, .navbar .navbar-nav > li > a.btn:focus, .navbar .navbar-nav > li > a.btn:active, .navbar .navbar-nav > li > a.btn.active, .navbar .navbar-nav > li > a.btn:active:focus, .navbar .navbar-nav > li > a.btn:active:hover, .navbar .navbar-nav > li > a.btn.active:focus, .navbar .navbar-nav > li > a.btn.active:hover, .open > .navbar .navbar-nav > li > a.btn.dropdown-toggle, .open > .navbar .navbar-nav > li > a.btn.dropdown-toggle:focus, .open > .navbar .navbar-nav > li > a.btn.dropdown-toggle:hover, .navbar .navbar-nav > li > a.btn.btn-default, .navbar .navbar-nav > li > a.btn.btn-default:hover, .navbar .navbar-nav > li > a.btn.btn-default:focus, .navbar .navbar-nav > li > a.btn.btn-default:active, .navbar .navbar-nav > li > a.btn.btn-default.active, .navbar .navbar-nav > li > a.btn.btn-default:active:focus, .navbar .navbar-nav > li > a.btn.btn-default:active:hover, .navbar .navbar-nav > li > a.btn.btn-default.active:focus, .navbar .navbar-nav > li > a.btn.btn-default.active:hover, .open > .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle, .open > .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle:focus, .open > .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle {
+  background-color: #EC1B33;
+}

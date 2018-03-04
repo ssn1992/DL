@@ -1,0 +1,113 @@
+#time-line-page {
+  /* Variables */
+  /* Layout */
+  /* Styling */
+}
+
+#time-line-page * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#time-line-page .timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+}
+
+#time-line-page .timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+#time-line-page .timeline-event {
+  position: relative;
+}
+
+#time-line-page .timeline-event:hover .timeline-event-icon {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #a83279;
+}
+
+#time-line-page .timeline-event:hover .timeline-event-thumbnail {
+  -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+  box-shadow: inset 40em 0 0 0 #a83279;
+}
+
+#time-line-page .timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
+}
+
+#time-line-page .timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+
+#time-line-page .timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+#time-line-page .timeline-event-copy strong {
+  font-weight: 700;
+}
+
+#time-line-page .timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+  text-align: justify;
+}
+
+#time-line-page .timeline-event-icon {
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid white;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+#time-line-page .timeline-event-thumbnail {
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  -webkit-transition: -webkit-box-shadow 0.5s ease-in 0.1s;
+  transition: -webkit-box-shadow 0.5s ease-in 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s, -webkit-box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+#time-line-page ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#time-line-page .timeline-image {
+  padding-bottom: 20px;
+}
+

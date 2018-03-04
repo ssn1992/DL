@@ -1,0 +1,87 @@
+// ***************************************
+// Footer
+// ***************************************
+
+
+// Basic Class
+// -----------
+.footer {
+  background-color: #fff;
+  padding-top: ($grid-vertical-step * 2);
+  padding-bottom: 50px;
+  margin-top: ($grid-vertical-step * 2);
+  border-top: 1px solid $gray-light;
+
+	h5 {
+		color: $brand-primary;
+		text-transform: uppercase;
+
+		&.press {
+			color: $brand-default;
+		}
+	}
+
+	ul {
+		list-style:none;
+	}
+
+	// Copyright
+	// ---------
+	.copyright {
+	background-color: $footer-bg;
+	padding-top: ($grid-vertical-step);
+	padding-bottom: ($grid-vertical-step / 2);
+
+		.container {
+			display: table;
+
+			.column	{
+				display: table-cell;
+				vertical-align: middle;
+				width: 50%;
+				&:last-child { text-align: right; }
+			}
+
+			p {
+				font-weight: 600;
+				font-size: $font-size-small;
+				margin: 0;
+				padding: 0;
+
+				> a {
+					padding: 0;
+					border: none;
+					color: $gray-light;
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+
+		}
+	}
+
+	.footer-icons {
+		.material-icons {
+			color: $gray;
+		}
+	}
+
+	.copyright {
+		padding: 5px 0;
+	}
+
+	&.footer-press {
+		margin-top: 0;
+
+		h5 {
+			font-size: 12px;
+		}
+	}
+
+	.press-footer-social-icons {
+		color: $brand-primary;
+		padding: 1px;
+	}
+}

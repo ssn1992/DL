@@ -1,0 +1,57 @@
+#forms {
+  #form-section-fairs {
+    label {
+      background-color: $navy;
+      color: #fff;
+    }
+
+    .has-error {
+      label {
+        background-color: $brand-danger;
+      }
+    }
+
+    .form-control {
+      .is-danger {
+        border: 1px solid $brand-danger;
+      }
+    }
+  }
+
+  .form-group {
+    padding-bottom: 30px;
+  }
+
+  .btn-group.bootstrap-select {
+    width: 100%!important;
+  }
+}
+
+#form-contact-edit {
+  #form-section-contact {
+    label {
+      background-color: $navy!important;
+      color: #fff!important;
+    }
+
+    .has-error {
+      label {
+        background-color: $brand-danger;
+      }
+    }
+
+    .form-control {
+      .is-danger {
+        border: 1px solid $brand-danger;
+      }
+    }
+  }
+
+  .form-group {
+    padding-bottom: 30px;
+  }
+
+  .btn-group.bootstrap-select {
+    width: 100%!important;
+  }
+}

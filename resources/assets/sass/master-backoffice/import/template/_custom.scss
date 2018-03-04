@@ -1,0 +1,176 @@
+/* Only demo */
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
+
+/* Admin Area */
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.admin {
+    td {
+      .btn {
+          padding: 2px 12px
+       }
+    }
+}
+
+/* Date Picker */
+.date-picker {
+  display: inline-block;
+  padding: 6px;
+  line-height: 22px;
+  font-size: 16px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+  border-radius: 2px;
+  color: rgb(95, 95, 95);
+}
+
+.calendar-filter {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.primay-color {
+  color: $navy;
+}
+
+/* ComboBox */
+.combo-box {
+  width: 185px;
+  height: 38px!important;
+  display: inline-block;
+  font-size: 16px;
+  border: 0!important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+  border-radius: 2px;
+  color: rgb(95, 95, 95);
+
+  input[type=search] {
+      width: 0!important;
+      float: none!important;
+      height: 41px!important;
+  }
+
+  .dropdown-toggle {
+      border: none!important;
+  }
+
+  .selected-tag {
+      background-color: $navy!important;
+      color: #fff!important;
+      border: none!important;
+      margin: 6px 1px 0 3px!important;
+      font-family: 'open sans'!important;
+  }
+
+  .dropdown-menu {
+      border: 2px rgba(0, 0, 0, 0.2)!important;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0px;
+      border-radius: 2px;
+
+      .active {
+          a {
+              color: $text-color!important;
+          }
+      }
+
+      .highlight {
+
+          a {
+              background: $navy!important;
+              color: #fff!important;
+          }
+      }
+  }
+}
+.skin-settings {
+  border-radius: 10%;
+  background: rgba(255, 255, 255, 0.9);
+
+  .title {
+    background: rgba(47, 186, 184, 0.9);
+    color: #fff;
+  }
+}
+.spin-icon {
+  background: rgba(47, 186, 184, 0.9);
+}
+.logo-element {
+  a {
+    img {
+      padding: 10px 0;
+    }
+  }
+}
+#highlights {
+  padding: 20px 0 0;
+}
+
+// Loader
+#isLoading {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(243,243,244,0.5);
+  z-index: 999;
+
+  .vue-simple-spinner {
+    @keyframes vue-simple-spinner-spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    transition: all .3s linear;
+    margin: 0px auto;
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(47, 186, 183) rgb(238, 238, 238) rgb(238, 238, 238);
+    border-image: initial;
+    width: 50px;
+    height: 50px;
+    animation: vue-simple-spinner-spin 0.8s linear infinite;
+  }
+
+  > div {
+    background-size: 50px;
+    position: relative;
+    top: calc((100% - 50px) / 2);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+// Map Legend
+.jvectormap-legend {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.jvectormap-container {
+  svg {
+    width: 100%;
+  }
+}
+
+// Date Picker
+.cov-datepicker {
+  width: 200px!important;
+}
+
+.cov-datepicker {
+  width: 200px!important;
+}
+
+.dropdown.v-select.combo-box.searchable {
+  width: 200px!important;
+}

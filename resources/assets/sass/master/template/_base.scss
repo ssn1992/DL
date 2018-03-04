@@ -1,0 +1,128 @@
+/*******************************************
+ * B-SHOP - Multipurpose E-commerce Template
+ * Copyright 2016 8Guild.com
+ * Theme Styles
+ * Dependencies: Bootstrap, FontAwesome
+
+    ╔══╗╔═══╗╔╗╔╗╔══╗╔╗──╔══╗
+  	║╔╗║║╔══╝║║║║╚╗╔╝║║──║╔╗╚╗
+  	║╚╝║║║╔═╗║║║║─║║─║║──║║╚╗║
+  	║╔╗║║║╚╗║║║║║─║║─║║──║║─║║
+  	║╚╝║║╚═╝║║╚╝║╔╝╚╗║╚═╗║╚═╝║
+  	╚══╝╚═══╝╚══╝╚══╝╚══╝╚═══╝
+*********************************************/
+
+
+// Import Google Fonts ("Playfair Display" & "Hind")
+// -------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Playfair+Display:400,400i,700,900');
+
+// font-family: 'Playfair Display', serif;
+// font-family: 'Hind', sans-serif;
+
+@import "bourbon/bourbon";
+
+// Core variables and mixins
+// -------------------------
+@import "variables";
+@import "mixins";
+
+
+// Core CSS
+// --------
+@import "scaffolding";
+@import "typography";
+@import "forms";
+@import "tables";
+@import "buttons";
+@import "grids";
+
+
+// Components
+// ----------
+@import "header";
+@import "footer";
+@import "newsletters";
+@import "slider";
+@import "sidebar";
+@import "tiles";
+@import "widgets";
+@import "panels";
+@import "box-with-icon";
+@import "page-title";
+@import "pagination";
+@import "tabs";
+@import "bages";
+@import "social";
+@import "top-bar";
+@import "dropdown";
+@import "navigation";
+@import "market_buttons";
+@import "range-slider";
+@import "block-title";
+@import "isotope-filters";
+@import "blog-single";
+@import "carousel&slider";
+@import "comments";
+@import "shop-elements";
+@import "sliders";
+@import "cart";
+@import "preview-info-block";
+@import "progress-bars";
+@import "split-section";
+@import "modals";
+@import "quick-preview";
+@import "preloader";
+
+/* MODAL */
+.modal-content {
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  outline: 0 none;
+  position: relative;
+  padding: 0!important;
+}
+
+.modal-dialog {
+  z-index: 2200;
+}
+
+.modal-body {
+  padding: 20px 30px 30px 30px;
+}
+
+.inmodal .modal-body {
+  background: rgba(#EC1B33, 0.05);
+}
+
+.inmodal .modal-header {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.animated.modal.fade .modal-dialog {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+.inmodal .modal-title {
+  font-size: 26px;
+}
+
+.inmodal .modal-icon {
+  font-size: 84px;
+  color: #e2e3e3;
+}
+
+.modal-footer {
+  margin-top: 0;
+}
+
+.form-control:focus, select:focus {
+  border: 1px solid #e6e5e5;
+}

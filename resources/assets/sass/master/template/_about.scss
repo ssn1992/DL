@@ -1,0 +1,44 @@
+#about-page {
+  .video-block {
+    .video-text {
+      p {
+        @media all and (min-width: $screen-lg-min) {
+          padding-top: 90px;
+        }
+      }
+    }
+  }
+
+  .mission-block {
+    .mission-text {
+      padding-top: 30px;
+
+      @media all and (max-width: $screen-sm-max) {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .values-block {
+    .values-img {
+      padding-bottom: 50px;
+    }
+  }
+
+  .collections-block {
+    .items-carousel {
+      .slick-arrow {
+        background: none;
+        color: #fff;
+
+        &:before {
+          font-size: 50px;
+        }
+
+        &:hover {
+          color: $brand-primary;
+        }
+      }
+    }
+  }
+}

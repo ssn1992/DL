@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "droply",
+        "scope": null,
+        "escapedName": "droply",
+        "name": "droply",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/sergionogueira/dl"
+    ]
+  ],
+  "_from": "droply@latest",
+  "_id": "droply@0.0.3",
+  "_inCache": true,
+  "_location": "/droply",
+  "_nodeVersion": "7.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/droply-0.0.3.tgz_1485418186369_0.33261205931194127"
+  },
+  "_npmUser": {
+    "name": "codeunited",
+    "email": "mirza@bosnadev.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "droply",
+    "scope": null,
+    "escapedName": "droply",
+    "name": "droply",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/droply/-/droply-0.0.3.tgz",
+  "_shasum": "6365ab2740c3171adbce8fb01f9301280b6c4dcd",
+  "_shrinkwrap": null,
+  "_spec": "droply",
+  "_where": "/Users/sergionogueira/dl",
+  "author": {
+    "name": "Mirza Pasic",
+    "email": "mirza@bosnadev.com"
+  },
+  "bugs": {
+    "url": "https://github.com/codeunitedio/droply/issues"
+  },
+  "dependencies": {
+    "dropzone": "^4.3.0",
+    "vue": "^2.1.10"
+  },
+  "description": "A tiny Dropzone.js wrapper for Vue 2",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.0",
+    "eslint": "^3.8.1",
+    "eslint-config-vue": "^2.0.1",
+    "eslint-plugin-html": "^1.7.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-vue": "^1.0.0",
+    "file-loader": "^0.8.4",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.3.0",
+    "sass": "^0.5.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^2.0.8",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.4",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6365ab2740c3171adbce8fb01f9301280b6c4dcd",
+    "tarball": "https://registry.npmjs.org/droply/-/droply-0.0.3.tgz"
+  },
+  "gitHead": "d69e27a4fc8cad91481396ea2453ed66a2aeb752",
+  "homepage": "https://github.com/codeunitedio/droply#readme",
+  "keywords": [
+    "utils",
+    "vuejs",
+    "vue",
+    "dropzone",
+    "upload"
+  ],
+  "license": "MIT",
+  "main": "./dist/droply.js",
+  "maintainers": [
+    {
+      "name": "codeunited",
+      "email": "mirza@bosnadev.com"
+    }
+  ],
+  "name": "droply",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeunitedio/droply.git"
+  },
+  "scripts": {
+    "build:demo": "cross-env NODE_ENV=production webpack --progress --hide-modules --config ./build/webpack.dev.conf.js",
+    "build:prod": "cross-env NODE_ENV=production webpack --progress --hide-modules --config ./build/webpack.prod.conf.js",
+    "dev": "npm run lint && npm run build:demo",
+    "lint": "eslint --ext .vue,.js --ignore-path .gitignore -- ./src",
+    "prod": "npm run build:prod",
+    "serve": "webpack-dev-server --inline --hot --config ./build/webpack.dev.conf.js --port 8080"
+  },
+  "version": "0.0.3"
+}

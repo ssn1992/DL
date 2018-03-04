@@ -1,0 +1,54 @@
+#login-background {
+    background-image: url('../../img/login/background-wallpaper.jpeg');
+    background-size: cover;
+    background-position: top center;
+}
+
+#brand-login {
+    padding-top: 18px;
+
+    h4 {
+        color: #fff!important;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+.btn.btn-simple.btn-primary.btn-lg {
+    color:#EC1B33;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset!important;
+    border-bottom: 1px solid #D2D2D2!important;
+    -webkit-text-fill-color: #555555!important;
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.checkbox input[type=checkbox]:checked + .checkbox-material .check {
+    background: #EC1B33;
+}
+
+.material-icons {
+    font-size: 24px!important;
+}
+
+.help-block.text-center {
+    width: 100%;
+    padding-left: 17px;
+}
+
